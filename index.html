@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Dance down the sound</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <center>
+        <div class="container">
+            <b>
+                <p>
+                    <h1>Sound Controlled Animals</h1>
+                    <h3>NOTE: PLAY DIFFERENT SOUNDS LIKE BARKING AND MEOWING!!!</h3>
+                </p>
+            </b>
+        </div>
+        <br>
+        <button onclick="startClassification()" class="btn btn-success"
+            style="font-size:35px;width:400px; border-radius:5px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">START</button>
+        <b>
+            <span><h3 id="dogs">Detected Dogs - </h3>
+            <h3 id="cats">Detected Cats - </h3></span>
+            <h3 id="sound"></h3>
+            <h3 id="accuracy"></h3>
+        </b>
+        <br>
+        <div class="animal">
+            <img id="img1" src="ear.png">
+        </div>
+        <script src="main.js"></script>
+    </center>
+</body>
+
+</html>

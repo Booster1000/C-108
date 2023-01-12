@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    font-family: 'Comic Sans MS';
+}
+
+.container {
+    background-color: turquoise;
+    width: 100%;
+    color: rgb(119, 0, 255);
+    font-family: 'Comic Sans MS';
+}
+
+img {
+    margin-top: 40px;
+    height: 450px;
+    width: 600px;
+}
+
+.animal {
+    box-shadow: 5px 5px 30px white;
+    width: 30%;
+}
+
+h1 {
+    color: red;
+}
